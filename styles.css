@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+    background: linear-gradient(45deg, #ef6602, #597cff);
     overflow: hidden;
 }
 
@@ -13,10 +13,11 @@ body {
     display: flex;
     width: 800px;
     height: 500px;
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba (0,239,102,2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     perspective: 1500px;
     border-radius: 10px;
+   
     backdrop-filter: blur(10px);
 }
 
@@ -47,10 +48,11 @@ body {
 
 h2 {
     text-align: center;
-    color: #fff;
+    color: #ef6602;
     margin-bottom: 30px;
-    font-weight: 600;
+    font-weight: 600px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: open sans;
 }
 
 form {
